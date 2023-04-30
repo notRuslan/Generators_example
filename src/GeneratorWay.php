@@ -22,7 +22,7 @@ class GeneratorWay
         print("User ID | Id | Title" . PHP_EOL);
         print(str_repeat('-', 110) . PHP_EOL);
         foreach ($posts as $post) {
-            printf("%2d | %2d | %s" . PHP_EOL, $post->id, $post->userId, $post->title);
+//            printf("%2d | %2d | %s" . PHP_EOL, $post->id, $post->userId, $post->title);
         }
     }
 }

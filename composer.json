@@ -1,0 +1,17 @@
+{
+    "name": "rusla/generators",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rusla\\Generators\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ruslan",
+            "email": "ruslangr@yahoo.com"
+        }
+    ],
+    "require": {}
+}
